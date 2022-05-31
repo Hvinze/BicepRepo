@@ -6,7 +6,7 @@ name: Deploy Bicep files
 variables:
   vmImageName: 'ubuntu-latest'
 
-  azureServiceConnection: 'YASH-Azure-DevOps-IaC-MPN'
+  azureServiceConnection: '7e42cfe4-4e77-425e-8434-915be5291076'
   resourceGroupName: 'Rg-Azure123'
   location: 'useast2'
   templateFile: 'fnappTemp.bicep'
